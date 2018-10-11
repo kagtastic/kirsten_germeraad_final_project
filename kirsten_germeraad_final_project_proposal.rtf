@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww14320\viewh12160\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Kirsten Germeraad\
+General Assembly Data Science Remote 910\
+\
+
+\b\fs36 Final Project, Part 1: 
+\i Proposal
+\i0\b0\fs24 \
+\
+
+\b\fs28 The Search for Exoplanets in Deep Space
+\b0\fs24 \
+\
+
+\b Problem
+\b0 \
+In order to answer the question of if there\'92s other life out there in the universe we first need to find stars that have planets orbiting them. When planets orbit a star, they pass in between the star and us, thus blocking some of the stars light. By looking for stars that regularly dim in a pattern, we can assume that they have a planet or multiple planets orbiting them.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Since there are millions of stars in the sky, but a limited amount of telescope time to investigate them all, we first start with one set of observation data, identify likely candidates for stars with planets and those candidates are then investigated further to confirm the existence of a planet.\
+\
+
+\b Hypothesis
+\b0 \
+Using data from the Kepler space telescope we can train an algorithm that can correctly identify those stars with already confirmed planets, so it can then be used to find candidates for additional investigation where planets are yet to be confirmed. As we are only looking to find stars for additional investigation, the algorithm should cast a decently wide net and not just identify those stars where planets are already confirmed, but instead look to reduce the dataset by at least 85% focused on all stars showing anomalies in light intensity. This reduces the number of stars needing additional investigation (aka telescope time) significantly.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+
+\b Data Source
+\b0 \
+The data source I plan to use is hosted on kaggle via this link (https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data).\
+\
+This data source contains both a Train and Test data set. The Train set has 5,087 rows/observations with 37 confirmed exoplanet-stars and the Test set has 570 rows/observations with 5 confirmed exoplanet-stars. This data is cleaned and derived from observations made by the NASA Kepler space telescope.}
